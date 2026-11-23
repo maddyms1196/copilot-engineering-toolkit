@@ -16,7 +16,7 @@ Reusable GitHub Copilot custom agents, agent skills, and project instructions fo
 
 ## Project structure
 
-
+```text
 copilot-engineering-toolkit
     ├── copilot-instructions.md
     ├── agents/
@@ -52,7 +52,7 @@ copilot-engineering-toolkit
         │   └── task.py
         └── testing-verification/
             └── SKILL.md
-
+```
 
 ## Quick start
 
