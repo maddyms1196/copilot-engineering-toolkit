@@ -14,6 +14,46 @@ Reusable GitHub Copilot custom agents, agent skills, and project instructions fo
 | [Context Curator](agents/context-curator.agent.md) | Teach Copilot project vocabulary through conversation. It clarifies ambiguous definitions, checks relevant local evidence when available, and saves what you agree. |
 | [Project instructions](copilot-instructions.md) | Give Copilot guidance on how to investigate, implement, and verify changes in your workspace. |
 
+## Project structure
+
+
+copilot-engineering-toolkit
+    ├── copilot-instructions.md
+    ├── agents/
+    │   ├── context-curator.agent.md
+    │   ├── engineering-pro.agent.md
+    │   ├── explorer.agent.md
+    │   ├── reviewer.agent.md
+    │   └── task-monitor.agent.md
+    └── skills/
+        ├── code-review/
+        │   ├── SKILL.md
+        │   └── references/
+        │       └── security-checklist.md
+        ├── codebase-investigation/
+        │   └── SKILL.md
+        ├── complex-task-execution/
+        │   └── SKILL.md
+        ├── data-analysis/
+        │   ├── SKILL.md
+        │   └── references/
+        │       ├── sql-checks.md
+        │       └── statistical-checks.md
+        ├── performance-optimization/
+        │   ├── SKILL.md
+        │   └── references/
+        │       └── profiling-tools.md
+        ├── root-cause-debugging/
+        │   └── SKILL.md
+        ├── safe-implementation/
+        │   └── SKILL.md
+        ├── task/
+        │   ├── SKILL.md
+        │   └── task.py
+        └── testing-verification/
+            └── SKILL.md
+
+
 ## Quick start
 
 Open the project where you want to use the kit in VS Code with GitHub Copilot enabled. Copy the components you want into that project:
